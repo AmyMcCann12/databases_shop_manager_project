@@ -34,22 +34,22 @@ CREATE TABLE items_orders (
 -- Add any records that are needed for the tests to run
 
 INSERT INTO items (name, unit_price, quantity) VALUES ('Pepper', 0.79, 5);
-INSERT INTO items (name, unit_price, quantity) VALUES ('Cucumber', 0.5, 5);
-INSERT INTO items (name, unit_price, quantity) VALUES ('Fish', 3.49, 5);
-INSERT INTO items (name, unit_price, quantity) VALUES ('Chocolate Bar', 1.30, 5);
+INSERT INTO items (name, unit_price, quantity) VALUES ('Cucumber', 0.5, 30);
+INSERT INTO items (name, unit_price, quantity) VALUES ('Fish', 3.49, 3);
+INSERT INTO items (name, unit_price, quantity) VALUES ('Chocolate Bar', 1.30, 2);
 INSERT INTO items (name, unit_price, quantity) VALUES ('Cereal', 2.2, 5);
-INSERT INTO items (name, unit_price, quantity) VALUES ('Ice Cream', 1.99, 5);
-INSERT INTO items (name, unit_price, quantity) VALUES ('Apples', 1.69, 5);
-INSERT INTO items (name, unit_price, quantity) VALUES ('Chips', 2.50, 5);
-INSERT INTO items (name, unit_price, quantity) VALUES ('Milk', 1.20, 5);
-INSERT INTO items (name, unit_price, quantity) VALUES ('Cheese', 3.49, 5);
+INSERT INTO items (name, unit_price, quantity) VALUES ('Ice Cream', 1.99, 10);
+INSERT INTO items (name, unit_price, quantity) VALUES ('Apples', 1.69, 15);
+INSERT INTO items (name, unit_price, quantity) VALUES ('Chips', 2.50, 7);
+INSERT INTO items (name, unit_price, quantity) VALUES ('Milk', 1.20, 12);
+INSERT INTO items (name, unit_price, quantity) VALUES ('Cheese', 3.49, 9);
 
-INSERT INTO orders (customer_name, order_date) VALUES ('Peppa Pig', '2023-10-21');
-INSERT INTO orders (customer_name, order_date) VALUES ('Susie Sheep', '2023-09-21');
-INSERT INTO orders (customer_name, order_date) VALUES ('Danny Dog', '2023-05-03');
-INSERT INTO orders (customer_name, order_date) VALUES ('Wendy Wolf', '2023-09-13');
-INSERT INTO orders (customer_name, order_date) VALUES ('Candy Cat', '2023-11-22');
-INSERT INTO orders (customer_name, order_date) VALUES ('Rebecca Rabbit', '2023-04-09');
+INSERT INTO orders (customer_name, order_date) VALUES ('John Smith', '2023-10-21');
+INSERT INTO orders (customer_name, order_date) VALUES ('David Jones', '2023-09-21');
+INSERT INTO orders (customer_name, order_date) VALUES ('Thomas Wolf', '2023-05-03');
+INSERT INTO orders (customer_name, order_date) VALUES ('Hannah Smith', '2023-09-13');
+INSERT INTO orders (customer_name, order_date) VALUES ('Frank Stow', '2023-11-22');
+INSERT INTO orders (customer_name, order_date) VALUES ('Julie Wish', '2023-04-09');
 
 INSERT INTO items_orders (item_id, order_id) VALUES (1,2);
 INSERT INTO items_orders (item_id, order_id) VALUES (2,1);
