@@ -33,7 +33,6 @@ class Application():
                 return input(input_text)
             else:
                 return '8'
-
         def full_item_to_print(item):
             return f"#{item.id} {item.name} - Unit Price: {item.unit_price} - Quantity: {item.quantity}"
         def full_order_to_print(order):
